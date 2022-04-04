@@ -1,11 +1,11 @@
 function anagrams(wordOne, wordTwo) {
-    // find length of two words, are they equal?
-    // look for matching letters
-    // return true or false
     
     const wordOneArray = wordOne
+    // turn the string into an array of letters
         .split('')
+    // put those letters in alphabetical order
         .sort()
+    // join the array back into a string
         .join('');
 
     const wordTwoArray = wordTwo
