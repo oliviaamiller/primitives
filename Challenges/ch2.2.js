@@ -9,5 +9,5 @@ function at(arr, index) {
 
 }
 
-console.log(at(['a', 'b', 'c', 'd', 'e'], 1));
-console.log(at(['a', 'b', 'c', 'd', 'e'], -2));
+// console.log(at(['a', 'b', 'c', 'd', 'e'], 1));
+// console.log(at(['a', 'b', 'c', 'd', 'e'], -2));
